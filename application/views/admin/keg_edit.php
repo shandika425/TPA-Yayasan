@@ -95,7 +95,7 @@
 
         <div class="form-group">
             <button type="submit" class="btn btn-primary">Update</button>
-              <input type="reset" class="btn btn-secondary" value="Batal">
+            <input type="reset" class="btn btn-secondary" value="Batal">
         </div>
     </form>
 </div>
