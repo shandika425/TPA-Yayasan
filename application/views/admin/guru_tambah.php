@@ -58,6 +58,9 @@
 <body>
 
 <div class="container">
+    <a href="<?= site_url('admin/guru') ?>" class="btn btn-warning">
+        <i class="fas fa-arrow-left"></i> Kembali
+    </a>
     <h2><b>Tambah Guru</b></h2>
     <form action="<?= base_url('guru/proses_tambah') ?>" method="post">
         <!-- Input ID Guru -->
@@ -99,7 +102,7 @@
 
         <div class="form-group">
             <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
-            <a href="<?= base_url('admin/guru') ?>" class="btn btn-secondary">Batal</a>
+            <input type="reset" class="btn btn-secondary" value="Batal">
         </div>
     </form>
 </div>
