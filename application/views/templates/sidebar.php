@@ -208,11 +208,11 @@
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="<?= base_url('admin/siswa') ?>" id="SiswaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fas fa-user-graduate sb-nav-link-icon mb-3"></i>    
-                Data Siswa
+                Siswa
             </a>
             <ul class="dropdown-menu" aria-labelledby="SiswaDropdown">
                 <li><a class="dropdown-item" href="<?= base_url('admin/siswa') ?>#DataSiswa">Data Anak</a></li>
-                <li><a class="dropdown-item" href="<?= base_url('admin/siswa') ?>#DataPendaftaran">Data Pendaftaran</a></li>
+                <li><a class="dropdown-item" href="<?= base_url('admin/siswa') ?>#DataPendaftaran"> Data Pendaftaran</a></li>
             </ul>
         </li>
         <a class="nav-link" href="<?= base_url('admin/kegiatan') ?>">
