@@ -199,7 +199,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container">
-    <a class="navbar-brand d-flex align-items-center" href="#">
+       <a class="navbar-brand d-flex align-items-center" href="<?= base_url('home') ?>">
       <img src="<?= base_url('assets/img/logo.png') ?>" class="me-2 logo-navbar" alt="Logo">
       Harapan Mulya
     </a>
