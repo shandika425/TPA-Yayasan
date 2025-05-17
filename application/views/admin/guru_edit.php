@@ -59,6 +59,9 @@
 <body>
 
 <div class="container">
+    <a href="<?= site_url('admin/guru') ?>" class="btn btn-warning">
+        <i class="fas fa-arrow-left"></i> Kembali
+    </a>
     <h2><b>Edit Guru</b></h2>
     <form action="<?= base_url('guru/guru_edit') ?>" method="post">
         <!-- Input ID Guru -->
@@ -99,6 +102,7 @@
         <!-- Tombol Simpan -->
     <div class="form-group d-flex justify-content-between">
         <button type="submit" class="btn btn-primary w-45">Simpan Perubahan</button>
+        <input type="reset" class="btn btn-secondary" value="Batal">
         </div>
     </form>
 </div>
